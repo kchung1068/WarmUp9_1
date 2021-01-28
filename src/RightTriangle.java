@@ -2,7 +2,7 @@ public class RightTriangle {
     private int a;
     private int b;
     private int c;
-
+//
     public RightTriangle() {
         this.a = 3;
         this.b = 4;
