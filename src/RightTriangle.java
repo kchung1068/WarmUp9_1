@@ -2,11 +2,11 @@ public class RightTriangle {
     private int a;
     private int b;
     private int c;
-//
+
     public RightTriangle() {
         this.a = 3;
         this.b = 4;
-        this.c = 5;
+        this.c =   5;
     }
 
     public RightTriangle(int a, int b, int c) {
@@ -21,10 +21,17 @@ public class RightTriangle {
     }
 
     public void setA(int a) {
-        this.a = a;
+        if (a <= 0) {
+            this.a = 7;
+        } else {
+            this.a = a;
+        }
     }
 
     public void setB(int b) {
+        if (b <= 0) {
+            this.b = 24;
+        }
         this.b = b;
     }
 
